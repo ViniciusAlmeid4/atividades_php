@@ -1,0 +1,28 @@
+1 - NUNCA FAÇA COMMIT EM OUTRA BRANCH QUE NÃO SEJA A SUA
+2 - VERIFIQUE SEMPRE SE SUA BRANCH ESTÁ ATUALIZADA ANTES DE FAZER O COMMIT
+3 - SEMPRE NOMEIE OS ARQUIVOS NO PADRÃO QUE O PROFESSOR PEDIU
+4 - IDENTE O SEU CÓDIGO ANTES DE FAZER O COMMIT
+5 - CRIE UM DIRETÓRIO COM O NOME CORRESPONDENTE DE CADA TAREFA
+6 - NOS EXERCÍCIOS MAIS AVANÇADOS CRIAR UM DIRETÓRIO PARA CADA EXERCÍCIO
+DENTRO DE CADA DIRETÓRIO DE CADA TAREFA
+
+
+REPOSITÓRIO BITBUCKET ESTAR LOGADO NO EMAIL DA TURMA
+EMAIL: tds09senai@gmail.com
+USUÁRIO: tds09senai
+SENHA DO APP PARA COMMITS SE NECESSÁRIO: ATBBegRwUHSwHGZK5sQUnDTUjw4LB302B0E2 
+
+git config –global user.name “tds09senai”
+git config –global user.email “tds09senai@gmail.com”
+
+
+git checkout nome da sua branch
+SÓ façam commit em sua própria branch
+
+ERRO: $ git checkout rafael
+error: pathspec 'rafael' did not match any file(s) known to git
+
+SOLUÇÃO
+git checkout --track origin/branchX
+
+depois git fetch -- all se necessário
